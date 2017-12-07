@@ -1,0 +1,13 @@
+{
+  "images":{
+    "path":[
+      "/src/assets/images/orange.jpg",
+      "/src/assets/images/scenary.jpg",
+      "/src/assets/images/tram.jpg",
+      "/src/assets/images/leaf.jpg",
+      "/src/assets/images/trees.jpg",
+      "/src/assets/images/bush.jpg",
+      "/src/assets/images/flowers.jpg"
+    ]
+  }
+}

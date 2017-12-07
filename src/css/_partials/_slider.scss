@@ -1,0 +1,45 @@
+@import "variables";
+
+.slider-grp{
+  margin-top: 92px;
+  position: relative;
+  @media only screen and(max-width:400px){
+    margin-top: 86px;
+  }
+  .owl-nav{
+    position: absolute;
+    width: 100%;
+    top: 36%;
+    z-index: 1;
+    margin: 0;
+    .owl-prev{
+      float: left;
+      right: -10px;
+    }
+    .owl-next{
+      float: right;
+      left: -10px;
+    }
+    .owl-prev,.owl-next{
+      position: relative;
+      font-size: 50px;
+      background-color: transparent;
+      opacity: .4;
+      @include trans(.2);
+      &:hover{
+        background-color: transparent;
+        opacity: .85;
+        @include trans(.2);
+      }
+    }
+  }
+  .owl-dots{
+    position: absolute;
+    width: 100%;
+    bottom: 3%;
+    z-index: 1;
+    @media only screen and(min-width:768px) and (max-width: 1000px){
+      display: none;
+    }
+  }
+}

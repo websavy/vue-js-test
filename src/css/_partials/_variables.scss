@@ -1,0 +1,10 @@
+$black : #000000;
+$grey: #EDEDED;
+$white: #FFFFFF;
+$navigation: #343a3f;
+$hotRed: #e53935;
+
+@mixin trans($val){
+  -webkit-transition: all $val+s ease-in-out !important; /* For Safari 3.1 to 6.0 */
+  transition: all $val+s ease-in-out !important;
+}
